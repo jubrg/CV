@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(./img/texture-mur-stuc-bleu-marine-relief-decoratif-abstrait-grunge-fond-colore-rugueux-grand-angle.jpg);
+    background-attachment: fixed;
+}
+body .page{
+    background-color: white;
+    border: transparent;
+    border-radius: 2%;
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+body h1{
+    padding: 5%;
+    text-align: center;
+}
+body .lign{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+body .lign *{
+    padding: 2%;
+}
+
+body .lign .vac{
+    border-radius: 2%;
+    border: solid black 2px;
+    padding: 10px;
+    box-shadow: 10px 5px 5px black;
+    margin-bottom: 5%;
+}
+
+body .lign .experiences .emplois .taches{
+    padding-top: 4%;
+}
+
+body .lign .prez .age{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+body .lign .prez .logi{
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+body .lign .etudes .format .vac{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+body footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+}
+body footer h2{
+    margin-bottom: 2px;
+}
+body footer .joi div{
+    margin-bottom: 5px;
+}
+
+.note {
+    display: flex;
+    padding: 0% !important;
+    margin-left: 33%;
+    margin-bottom: 3%;
+}
+.cercle {
+    width: 4px;
+    height: 4px;
+    border-radius: 20px;
+    background: green;
+    margin-left: 5px;
+}
+.cercle2 {
+    width: 4px;
+    height: 4px;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 5px;
+}
